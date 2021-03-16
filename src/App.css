@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+#root,.app-class{
+  height: 100%;
+}
+
+body,html{
+  height: 100%;
+}
+.ul-header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.ul-header>li>a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.1s;
+}
+.ul-header>li>a:hover{
+  background-color: #35B116;
+  cursor: pointer;
+}
+.ul-header li{
+  float: left;
+}
+.class-image{
+  width: 30%;
+  display: inline-block;
+}
+.class-image>img{
+  border-radius: 50%;
+  height: 40vh;
+}
+.class-userinfo{
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+.profile{
+  padding: 2%;
+  height: 78.8%;
+}
+.class-userinfo>ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.class-userinfo>ul>li{
+  font-size: large;
+  margin-top: 2%;
+}
+.footer{
+  text-align: center;
+  padding: 1px;
+  background-color: #333;
+  color: white;
+  height: 8%;
+}
