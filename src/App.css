@@ -59,6 +59,14 @@ body,html{
   text-decoration: none;
   transition: 0.1s;
 }
+.ul-header>li>div{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.1s;
+}
 .ul-header>li>a:hover{
   background-color: #35B116;
   cursor: pointer;
